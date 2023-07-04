@@ -5,36 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Café Lacroix</title>
-    <link rel="stylesheet" href="style.css">
+<!-- link boostrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- css nativo -->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="menu container">
-            <a href="./index.html" class="logo"></a>
-            <input type="checkbox" id="menu"/>
-            <label for="menu">
-                <img src="images/menu.png" class="menu-icono" alt="">
-            </label>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="./index.html">Inicio</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Productos</a></li>
-                    <li><a href="#">Contacto</a></li>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-Secondary">
+            <div class="container-fluid">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  fill="#000"
+                  class="bi bi-list"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                  />
+                </svg>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#inicioo"
+                      >Inicio</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portafolio">Tipos de Café</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#servicioss">Servicios</a>
+                  </li>
+                  
                 </ul>
-            </nav>
-        </div>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+    <section class="header">
         <div class="header-content container">
             <h1>Café Lacroix</h1>
             <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                 Obcaecati ullam veritatis debitisam.
             </p>
-            <a href="#" class="btn-1">Informacion</a>
+            <a href="./index.html" class="btn-1">Informacion</a>
 
         </div>
-    </header>
-
+    </section>
     <section class="coffe">
         <div class="coffe-content container">
             <h2>LOS DIFERENTES TIPOS DE CAFÉ</h2>
@@ -74,7 +107,6 @@
             <a href="#" class="btn-1">Informacion</a>
         </div>
     </section> 
-
     <main class="services">
 
         <div class="services-content container">
@@ -106,7 +138,6 @@
             <a href="#" class="btn-1">Informacion</a>
         </div>
     </main>
-
     <section class="general">
         <div class="general-1">
             <h2> molestiae id nisi quam!</h2>
@@ -119,8 +150,6 @@
         </div>
         <div class="general-2"></div>
     </section>
-
-
     <section class="general">
         <div class="general-3"></div>
         <div class="general-1">
@@ -133,7 +162,6 @@
             <a href="#" class="btn-1">Información</a>
         </div>
     </section>
-
     <section class="blog container">
         <h2>Blog</h2>
         <p> Lorem ipsum dolor sit amet con</p>
@@ -170,9 +198,6 @@
         <a href="#" class="btn-1">Información</a>
 
     </section>
-
-
-
     <footer class="footer">
         <div class="footer-content container">
             <div class="link">
@@ -214,7 +239,7 @@
 
 
 
-
+<script src="./js/bootstrap.bundle.min.js"></script>
 <script src="index.js"></script>
 </body>
 </html>
