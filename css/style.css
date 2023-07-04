@@ -20,7 +20,7 @@ body {
 }
 .navbar .container-fluid{
     display: flex;
-    justify-content: center;
+    justify-content: start;
 
 }
 .navbar-toggler {
